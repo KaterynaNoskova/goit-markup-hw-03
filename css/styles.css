@@ -147,6 +147,9 @@ body{
     background: var(--accent-color, #4D5AE5);
     min-width: 169px;
     height: 56px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: var(--accent-color);
 }
 .slogan-btn:is(:hover, :focus){
     background: var(--text-hover-link, #404BBF);
